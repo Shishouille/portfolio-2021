@@ -63,14 +63,11 @@ const StyledLayout = styled.main<{ loading: boolean }>`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  .left,
-  .right {
-    width: 100%;
-    height: 100vh;
-  }
 
   /* LEFT SIDE */
   .left {
+    width: 100%;
+    height: 100vh;
     .img-placeholder {
       width: 100%;
       height: 100%;
@@ -100,6 +97,9 @@ const StyledLayout = styled.main<{ loading: boolean }>`
     background-image: ${theme.backgroundPattern};
     color: ${theme.colors.white};
     overflow-y: auto;
+
+    width: 100%;
+    min-height: 100vh;
 
     .article {
       flex: 1;
@@ -138,6 +138,7 @@ const StyledLayout = styled.main<{ loading: boolean }>`
     .left,
     .right {
       width: 50%;
+      height: 100vh;
     }
     .right {
       padding: ${theme.gutter};
