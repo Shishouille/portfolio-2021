@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <Element name="projects">
       <StyledProjects>
-        <StyledH2>Mes projets</StyledH2>
+        <StyledH2>Mes expériences professionnelles</StyledH2>
         <div className="container">
           <ProjectCard
             icon={tandemzIcon}

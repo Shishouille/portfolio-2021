@@ -14,7 +14,7 @@ const MiniProjects = () => {
   return (
     <Element name="mini">
       <StyledMiniProjects>
-        <StyledH2>Mes mini projets</StyledH2>
+        <StyledH2>Mes projets</StyledH2>
         <MiniProjectCard
           title="Mon précédent portfolio"
           description="Stack : GatsbyJS - styled-components"

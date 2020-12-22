@@ -33,10 +33,10 @@ const Navbar = () => {
           <button className="nav-button">Accueil</button>
         </Scroll>
         <Scroll to="projects" smooth duration={650}>
-          <button className="nav-button">Projets</button>
+          <button className="nav-button">Expérience</button>
         </Scroll>
         <Scroll to="mini" smooth duration={670}>
-          <button className="nav-button">Mini projets</button>
+          <button className="nav-button">Projets</button>
         </Scroll>
       </StyledNavBar>
     </Element>
