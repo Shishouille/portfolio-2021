@@ -121,13 +121,11 @@ const StyledLayout = styled.main<{ loading: boolean }>`
         margin-bottom: ${theme.marginBase * 2}px;
       }
     }
-    .top-nav {
-      margin-left: ${theme.marginBase * 2}px;
-      margin-right: ${theme.marginBase * 2}px;
+    .top-nav,
+    .footer-nav {
+      margin: ${theme.marginBase * 2}px;
     }
     .footer-nav {
-      margin-left: ${theme.marginBase * 2}px;
-      margin-right: ${theme.marginBase * 2}px;
       display: flex;
       justify-content: space-between;
       align-items: center;
